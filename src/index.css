@@ -11,3 +11,52 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.palo {
+  border: 1px solid black;
+  width: 20px;
+  height: 180px;
+  margin: 0px auto;
+  background-color: grey;
+}
+.semaforoBody {
+  border: 1px solid black;
+  width: 200px;
+  height: 400px;
+  margin: 0px auto;
+  border-radius: 15px;
+  background-color: grey;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.red {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
+.yellow {
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
+.green {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
+.brillo {
+  box-shadow: 3px 2px 43px 18px rgba(193,202,89,0.79);
+-webkit-box-shadow: 3px 2px 43px 18px rgba(193,202,89,0.79);
+-moz-box-shadow: 3px 2px 43px 18px rgba(193,202,89,0.79);
+}
